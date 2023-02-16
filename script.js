@@ -36,7 +36,7 @@ function desconto() {
 function cvt() {
     let real = window.document.querySelector(`input#brl`).value
     let dolar = 5.22
-    let convertido = real * dolar
+    let convertido = real / dolar
 
     res6.innerHTML = (`R$${real} convertidos para Dólar é: $${convertido.toFixed(2)}`)
 }
